@@ -14,6 +14,7 @@
 		90BCC31C2A7D1564002BA1F9 /* SlingshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC31B2A7D1564002BA1F9 /* SlingshotTests.swift */; };
 		90BCC3262A7D1564002BA1F9 /* SlingshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3252A7D1564002BA1F9 /* SlingshotUITests.swift */; };
 		90BCC3282A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3272A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift */; };
+		90BCC3372A7D2650002BA1F9 /* DemoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3362A7D2650002BA1F9 /* DemoTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,10 @@
 		90BCC3212A7D1564002BA1F9 /* SlingshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BCC3252A7D1564002BA1F9 /* SlingshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotUITests.swift; sourceTree = "<group>"; };
 		90BCC3272A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90BCC3362A7D2650002BA1F9 /* DemoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTest.swift; sourceTree = "<group>"; };
+		90BCC3382A7D2669002BA1F9 /* NewTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NewTests; sourceTree = "<group>"; };
+		90BCC3392A7D2682002BA1F9 /* SlingshotTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SlingshotTests; sourceTree = "<group>"; };
+		90BCC33A2A7D268C002BA1F9 /* SlingshotUITests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SlingshotUITests; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,10 @@
 		90BCC2FE2A7D1562002BA1F9 = {
 			isa = PBXGroup;
 			children = (
+				90BCC33A2A7D268C002BA1F9 /* SlingshotUITests */,
+				90BCC3392A7D2682002BA1F9 /* SlingshotTests */,
+				90BCC3382A7D2669002BA1F9 /* NewTests */,
+				90BCC3352A7D262D002BA1F9 /* NewTests */,
 				90BCC3092A7D1562002BA1F9 /* Slingshot */,
 				90BCC31A2A7D1564002BA1F9 /* SlingshotTests */,
 				90BCC3242A7D1564002BA1F9 /* SlingshotUITests */,
@@ -125,6 +134,14 @@
 				90BCC3272A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift */,
 			);
 			path = SlingshotUITests;
+			sourceTree = "<group>";
+		};
+		90BCC3352A7D262D002BA1F9 /* NewTests */ = {
+			isa = PBXGroup;
+			children = (
+				90BCC3362A7D2650002BA1F9 /* DemoTest.swift */,
+			);
+			path = NewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BCC3372A7D2650002BA1F9 /* DemoTest.swift in Sources */,
 				90BCC31C2A7D1564002BA1F9 /* SlingshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

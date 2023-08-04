@@ -15,6 +15,9 @@
 		90BCC3262A7D1564002BA1F9 /* SlingshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3252A7D1564002BA1F9 /* SlingshotUITests.swift */; };
 		90BCC3282A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3272A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift */; };
 		90BCC3372A7D2650002BA1F9 /* DemoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3362A7D2650002BA1F9 /* DemoTest.swift */; };
+		90BCC33B2A7D2806002BA1F9 /* SlingshotUITests in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC33A2A7D268C002BA1F9 /* SlingshotUITests */; };
+		90BCC33C2A7D280A002BA1F9 /* SlingshotTests in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC3392A7D2682002BA1F9 /* SlingshotTests */; };
+		90BCC33D2A7D280E002BA1F9 /* NewTests in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC3382A7D2669002BA1F9 /* NewTests */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BCC3122A7D1564002BA1F9 /* Preview Assets.xcassets in Resources */,
+				90BCC33D2A7D280E002BA1F9 /* NewTests in Resources */,
 				90BCC30F2A7D1564002BA1F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BCC33C2A7D280A002BA1F9 /* SlingshotTests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BCC33B2A7D2806002BA1F9 /* SlingshotUITests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

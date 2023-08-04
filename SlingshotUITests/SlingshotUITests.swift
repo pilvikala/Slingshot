@@ -28,6 +28,7 @@ final class SlingshotUITests: XCTestCase {
         app.launch()
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(false, "manual test failure")
     }
 
     func testLaunchPerformance() throws {

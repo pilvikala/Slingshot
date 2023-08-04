@@ -1,13 +1,13 @@
 //
-//  DemoTest.swift
-//  SlingshotTests
+//  SlingshotUITests.swift
+//  SlingshotUITests
 //
 //  Created by Michal Brutvan on 4.8.2023.
 //
 
 import XCTest
 
-final class DemoTest: XCTestCase {
+final class SlingshotUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

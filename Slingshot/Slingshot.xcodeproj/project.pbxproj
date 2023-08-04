@@ -7,69 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90BCC30B2A7D1562002BA1F9 /* SlingshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC30A2A7D1562002BA1F9 /* SlingshotApp.swift */; };
-		90BCC30D2A7D1562002BA1F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC30C2A7D1562002BA1F9 /* ContentView.swift */; };
-		90BCC30F2A7D1564002BA1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC30E2A7D1564002BA1F9 /* Assets.xcassets */; };
-		90BCC3122A7D1564002BA1F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC3112A7D1564002BA1F9 /* Preview Assets.xcassets */; };
-		90BCC31C2A7D1564002BA1F9 /* SlingshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC31B2A7D1564002BA1F9 /* SlingshotTests.swift */; };
-		90BCC3262A7D1564002BA1F9 /* SlingshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3252A7D1564002BA1F9 /* SlingshotUITests.swift */; };
-		90BCC3282A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3272A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift */; };
-		90BCC3372A7D2650002BA1F9 /* DemoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3362A7D2650002BA1F9 /* DemoTest.swift */; };
-		90BCC33B2A7D2806002BA1F9 /* SlingshotUITests in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC33A2A7D268C002BA1F9 /* SlingshotUITests */; };
-		90BCC33C2A7D280A002BA1F9 /* SlingshotTests in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC3392A7D2682002BA1F9 /* SlingshotTests */; };
-		90BCC33D2A7D280E002BA1F9 /* NewTests in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC3382A7D2669002BA1F9 /* NewTests */; };
+		90BCC34B2A7D2CA4002BA1F9 /* SlingshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC34A2A7D2CA4002BA1F9 /* SlingshotApp.swift */; };
+		90BCC34D2A7D2CA4002BA1F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC34C2A7D2CA4002BA1F9 /* ContentView.swift */; };
+		90BCC34F2A7D2CA5002BA1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC34E2A7D2CA5002BA1F9 /* Assets.xcassets */; };
+		90BCC3522A7D2CA5002BA1F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BCC3512A7D2CA5002BA1F9 /* Preview Assets.xcassets */; };
+		90BCC35C2A7D2CA5002BA1F9 /* SlingshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC35B2A7D2CA5002BA1F9 /* SlingshotTests.swift */; };
+		90BCC3662A7D2CA5002BA1F9 /* SlingshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3652A7D2CA5002BA1F9 /* SlingshotUITests.swift */; };
+		90BCC3682A7D2CA5002BA1F9 /* SlingshotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCC3672A7D2CA5002BA1F9 /* SlingshotUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		90BCC3182A7D1564002BA1F9 /* PBXContainerItemProxy */ = {
+		90BCC3582A7D2CA5002BA1F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 90BCC2FF2A7D1562002BA1F9 /* Project object */;
+			containerPortal = 90BCC33F2A7D2CA4002BA1F9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 90BCC3062A7D1562002BA1F9;
+			remoteGlobalIDString = 90BCC3462A7D2CA4002BA1F9;
 			remoteInfo = Slingshot;
 		};
-		90BCC3222A7D1564002BA1F9 /* PBXContainerItemProxy */ = {
+		90BCC3622A7D2CA5002BA1F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 90BCC2FF2A7D1562002BA1F9 /* Project object */;
+			containerPortal = 90BCC33F2A7D2CA4002BA1F9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 90BCC3062A7D1562002BA1F9;
+			remoteGlobalIDString = 90BCC3462A7D2CA4002BA1F9;
 			remoteInfo = Slingshot;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		90BCC3072A7D1562002BA1F9 /* Slingshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slingshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90BCC30A2A7D1562002BA1F9 /* SlingshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotApp.swift; sourceTree = "<group>"; };
-		90BCC30C2A7D1562002BA1F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		90BCC30E2A7D1564002BA1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90BCC3112A7D1564002BA1F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		90BCC3172A7D1564002BA1F9 /* SlingshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		90BCC31B2A7D1564002BA1F9 /* SlingshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotTests.swift; sourceTree = "<group>"; };
-		90BCC3212A7D1564002BA1F9 /* SlingshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		90BCC3252A7D1564002BA1F9 /* SlingshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotUITests.swift; sourceTree = "<group>"; };
-		90BCC3272A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		90BCC3362A7D2650002BA1F9 /* DemoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTest.swift; sourceTree = "<group>"; };
-		90BCC3382A7D2669002BA1F9 /* NewTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NewTests; sourceTree = "<group>"; };
-		90BCC3392A7D2682002BA1F9 /* SlingshotTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SlingshotTests; sourceTree = "<group>"; };
-		90BCC33A2A7D268C002BA1F9 /* SlingshotUITests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SlingshotUITests; sourceTree = "<group>"; };
+		90BCC3472A7D2CA4002BA1F9 /* Slingshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slingshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BCC34A2A7D2CA4002BA1F9 /* SlingshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotApp.swift; sourceTree = "<group>"; };
+		90BCC34C2A7D2CA4002BA1F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90BCC34E2A7D2CA5002BA1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90BCC3512A7D2CA5002BA1F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90BCC3572A7D2CA5002BA1F9 /* SlingshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BCC35B2A7D2CA5002BA1F9 /* SlingshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotTests.swift; sourceTree = "<group>"; };
+		90BCC3612A7D2CA5002BA1F9 /* SlingshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BCC3652A7D2CA5002BA1F9 /* SlingshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotUITests.swift; sourceTree = "<group>"; };
+		90BCC3672A7D2CA5002BA1F9 /* SlingshotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlingshotUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		90BCC3042A7D1562002BA1F9 /* Frameworks */ = {
+		90BCC3442A7D2CA4002BA1F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90BCC3142A7D1564002BA1F9 /* Frameworks */ = {
+		90BCC3542A7D2CA5002BA1F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90BCC31E2A7D1564002BA1F9 /* Frameworks */ = {
+		90BCC35E2A7D2CA5002BA1F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,84 +71,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90BCC2FE2A7D1562002BA1F9 = {
+		90BCC33E2A7D2CA4002BA1F9 = {
 			isa = PBXGroup;
 			children = (
-				90BCC33A2A7D268C002BA1F9 /* SlingshotUITests */,
-				90BCC3392A7D2682002BA1F9 /* SlingshotTests */,
-				90BCC3382A7D2669002BA1F9 /* NewTests */,
-				90BCC3352A7D262D002BA1F9 /* NewTests */,
-				90BCC3092A7D1562002BA1F9 /* Slingshot */,
-				90BCC31A2A7D1564002BA1F9 /* SlingshotTests */,
-				90BCC3242A7D1564002BA1F9 /* SlingshotUITests */,
-				90BCC3082A7D1562002BA1F9 /* Products */,
+				90BCC3492A7D2CA4002BA1F9 /* Slingshot */,
+				90BCC35A2A7D2CA5002BA1F9 /* SlingshotTests */,
+				90BCC3642A7D2CA5002BA1F9 /* SlingshotUITests */,
+				90BCC3482A7D2CA4002BA1F9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		90BCC3082A7D1562002BA1F9 /* Products */ = {
+		90BCC3482A7D2CA4002BA1F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90BCC3072A7D1562002BA1F9 /* Slingshot.app */,
-				90BCC3172A7D1564002BA1F9 /* SlingshotTests.xctest */,
-				90BCC3212A7D1564002BA1F9 /* SlingshotUITests.xctest */,
+				90BCC3472A7D2CA4002BA1F9 /* Slingshot.app */,
+				90BCC3572A7D2CA5002BA1F9 /* SlingshotTests.xctest */,
+				90BCC3612A7D2CA5002BA1F9 /* SlingshotUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		90BCC3092A7D1562002BA1F9 /* Slingshot */ = {
+		90BCC3492A7D2CA4002BA1F9 /* Slingshot */ = {
 			isa = PBXGroup;
 			children = (
-				90BCC30A2A7D1562002BA1F9 /* SlingshotApp.swift */,
-				90BCC30C2A7D1562002BA1F9 /* ContentView.swift */,
-				90BCC30E2A7D1564002BA1F9 /* Assets.xcassets */,
-				90BCC3102A7D1564002BA1F9 /* Preview Content */,
+				90BCC34A2A7D2CA4002BA1F9 /* SlingshotApp.swift */,
+				90BCC34C2A7D2CA4002BA1F9 /* ContentView.swift */,
+				90BCC34E2A7D2CA5002BA1F9 /* Assets.xcassets */,
+				90BCC3502A7D2CA5002BA1F9 /* Preview Content */,
 			);
 			path = Slingshot;
 			sourceTree = "<group>";
 		};
-		90BCC3102A7D1564002BA1F9 /* Preview Content */ = {
+		90BCC3502A7D2CA5002BA1F9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				90BCC3112A7D1564002BA1F9 /* Preview Assets.xcassets */,
+				90BCC3512A7D2CA5002BA1F9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		90BCC31A2A7D1564002BA1F9 /* SlingshotTests */ = {
+		90BCC35A2A7D2CA5002BA1F9 /* SlingshotTests */ = {
 			isa = PBXGroup;
 			children = (
-				90BCC31B2A7D1564002BA1F9 /* SlingshotTests.swift */,
+				90BCC35B2A7D2CA5002BA1F9 /* SlingshotTests.swift */,
 			);
 			path = SlingshotTests;
 			sourceTree = "<group>";
 		};
-		90BCC3242A7D1564002BA1F9 /* SlingshotUITests */ = {
+		90BCC3642A7D2CA5002BA1F9 /* SlingshotUITests */ = {
 			isa = PBXGroup;
 			children = (
-				90BCC3252A7D1564002BA1F9 /* SlingshotUITests.swift */,
-				90BCC3272A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift */,
+				90BCC3652A7D2CA5002BA1F9 /* SlingshotUITests.swift */,
+				90BCC3672A7D2CA5002BA1F9 /* SlingshotUITestsLaunchTests.swift */,
 			);
 			path = SlingshotUITests;
-			sourceTree = "<group>";
-		};
-		90BCC3352A7D262D002BA1F9 /* NewTests */ = {
-			isa = PBXGroup;
-			children = (
-				90BCC3362A7D2650002BA1F9 /* DemoTest.swift */,
-			);
-			path = NewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90BCC3062A7D1562002BA1F9 /* Slingshot */ = {
+		90BCC3462A7D2CA4002BA1F9 /* Slingshot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90BCC32B2A7D1564002BA1F9 /* Build configuration list for PBXNativeTarget "Slingshot" */;
+			buildConfigurationList = 90BCC36B2A7D2CA5002BA1F9 /* Build configuration list for PBXNativeTarget "Slingshot" */;
 			buildPhases = (
-				90BCC3032A7D1562002BA1F9 /* Sources */,
-				90BCC3042A7D1562002BA1F9 /* Frameworks */,
-				90BCC3052A7D1562002BA1F9 /* Resources */,
+				90BCC3432A7D2CA4002BA1F9 /* Sources */,
+				90BCC3442A7D2CA4002BA1F9 /* Frameworks */,
+				90BCC3452A7D2CA4002BA1F9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -164,69 +144,69 @@
 			);
 			name = Slingshot;
 			productName = Slingshot;
-			productReference = 90BCC3072A7D1562002BA1F9 /* Slingshot.app */;
+			productReference = 90BCC3472A7D2CA4002BA1F9 /* Slingshot.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90BCC3162A7D1564002BA1F9 /* SlingshotTests */ = {
+		90BCC3562A7D2CA5002BA1F9 /* SlingshotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90BCC32E2A7D1564002BA1F9 /* Build configuration list for PBXNativeTarget "SlingshotTests" */;
+			buildConfigurationList = 90BCC36E2A7D2CA5002BA1F9 /* Build configuration list for PBXNativeTarget "SlingshotTests" */;
 			buildPhases = (
-				90BCC3132A7D1564002BA1F9 /* Sources */,
-				90BCC3142A7D1564002BA1F9 /* Frameworks */,
-				90BCC3152A7D1564002BA1F9 /* Resources */,
+				90BCC3532A7D2CA5002BA1F9 /* Sources */,
+				90BCC3542A7D2CA5002BA1F9 /* Frameworks */,
+				90BCC3552A7D2CA5002BA1F9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				90BCC3192A7D1564002BA1F9 /* PBXTargetDependency */,
+				90BCC3592A7D2CA5002BA1F9 /* PBXTargetDependency */,
 			);
 			name = SlingshotTests;
 			productName = SlingshotTests;
-			productReference = 90BCC3172A7D1564002BA1F9 /* SlingshotTests.xctest */;
+			productReference = 90BCC3572A7D2CA5002BA1F9 /* SlingshotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		90BCC3202A7D1564002BA1F9 /* SlingshotUITests */ = {
+		90BCC3602A7D2CA5002BA1F9 /* SlingshotUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90BCC3312A7D1564002BA1F9 /* Build configuration list for PBXNativeTarget "SlingshotUITests" */;
+			buildConfigurationList = 90BCC3712A7D2CA5002BA1F9 /* Build configuration list for PBXNativeTarget "SlingshotUITests" */;
 			buildPhases = (
-				90BCC31D2A7D1564002BA1F9 /* Sources */,
-				90BCC31E2A7D1564002BA1F9 /* Frameworks */,
-				90BCC31F2A7D1564002BA1F9 /* Resources */,
+				90BCC35D2A7D2CA5002BA1F9 /* Sources */,
+				90BCC35E2A7D2CA5002BA1F9 /* Frameworks */,
+				90BCC35F2A7D2CA5002BA1F9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				90BCC3232A7D1564002BA1F9 /* PBXTargetDependency */,
+				90BCC3632A7D2CA5002BA1F9 /* PBXTargetDependency */,
 			);
 			name = SlingshotUITests;
 			productName = SlingshotUITests;
-			productReference = 90BCC3212A7D1564002BA1F9 /* SlingshotUITests.xctest */;
+			productReference = 90BCC3612A7D2CA5002BA1F9 /* SlingshotUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		90BCC2FF2A7D1562002BA1F9 /* Project object */ = {
+		90BCC33F2A7D2CA4002BA1F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					90BCC3062A7D1562002BA1F9 = {
+					90BCC3462A7D2CA4002BA1F9 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					90BCC3162A7D1564002BA1F9 = {
+					90BCC3562A7D2CA5002BA1F9 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 90BCC3062A7D1562002BA1F9;
+						TestTargetID = 90BCC3462A7D2CA4002BA1F9;
 					};
-					90BCC3202A7D1564002BA1F9 = {
+					90BCC3602A7D2CA5002BA1F9 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 90BCC3062A7D1562002BA1F9;
+						TestTargetID = 90BCC3462A7D2CA4002BA1F9;
 					};
 				};
 			};
-			buildConfigurationList = 90BCC3022A7D1562002BA1F9 /* Build configuration list for PBXProject "Slingshot" */;
+			buildConfigurationList = 90BCC3422A7D2CA4002BA1F9 /* Build configuration list for PBXProject "Slingshot" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,92 +214,88 @@
 				en,
 				Base,
 			);
-			mainGroup = 90BCC2FE2A7D1562002BA1F9;
-			productRefGroup = 90BCC3082A7D1562002BA1F9 /* Products */;
+			mainGroup = 90BCC33E2A7D2CA4002BA1F9;
+			productRefGroup = 90BCC3482A7D2CA4002BA1F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90BCC3062A7D1562002BA1F9 /* Slingshot */,
-				90BCC3162A7D1564002BA1F9 /* SlingshotTests */,
-				90BCC3202A7D1564002BA1F9 /* SlingshotUITests */,
+				90BCC3462A7D2CA4002BA1F9 /* Slingshot */,
+				90BCC3562A7D2CA5002BA1F9 /* SlingshotTests */,
+				90BCC3602A7D2CA5002BA1F9 /* SlingshotUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		90BCC3052A7D1562002BA1F9 /* Resources */ = {
+		90BCC3452A7D2CA4002BA1F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BCC3122A7D1564002BA1F9 /* Preview Assets.xcassets in Resources */,
-				90BCC33D2A7D280E002BA1F9 /* NewTests in Resources */,
-				90BCC30F2A7D1564002BA1F9 /* Assets.xcassets in Resources */,
+				90BCC3522A7D2CA5002BA1F9 /* Preview Assets.xcassets in Resources */,
+				90BCC34F2A7D2CA5002BA1F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90BCC3152A7D1564002BA1F9 /* Resources */ = {
+		90BCC3552A7D2CA5002BA1F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BCC33C2A7D280A002BA1F9 /* SlingshotTests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90BCC31F2A7D1564002BA1F9 /* Resources */ = {
+		90BCC35F2A7D2CA5002BA1F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BCC33B2A7D2806002BA1F9 /* SlingshotUITests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		90BCC3032A7D1562002BA1F9 /* Sources */ = {
+		90BCC3432A7D2CA4002BA1F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BCC30D2A7D1562002BA1F9 /* ContentView.swift in Sources */,
-				90BCC30B2A7D1562002BA1F9 /* SlingshotApp.swift in Sources */,
+				90BCC34D2A7D2CA4002BA1F9 /* ContentView.swift in Sources */,
+				90BCC34B2A7D2CA4002BA1F9 /* SlingshotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90BCC3132A7D1564002BA1F9 /* Sources */ = {
+		90BCC3532A7D2CA5002BA1F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BCC3372A7D2650002BA1F9 /* DemoTest.swift in Sources */,
-				90BCC31C2A7D1564002BA1F9 /* SlingshotTests.swift in Sources */,
+				90BCC35C2A7D2CA5002BA1F9 /* SlingshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90BCC31D2A7D1564002BA1F9 /* Sources */ = {
+		90BCC35D2A7D2CA5002BA1F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BCC3282A7D1564002BA1F9 /* SlingshotUITestsLaunchTests.swift in Sources */,
-				90BCC3262A7D1564002BA1F9 /* SlingshotUITests.swift in Sources */,
+				90BCC3682A7D2CA5002BA1F9 /* SlingshotUITestsLaunchTests.swift in Sources */,
+				90BCC3662A7D2CA5002BA1F9 /* SlingshotUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		90BCC3192A7D1564002BA1F9 /* PBXTargetDependency */ = {
+		90BCC3592A7D2CA5002BA1F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 90BCC3062A7D1562002BA1F9 /* Slingshot */;
-			targetProxy = 90BCC3182A7D1564002BA1F9 /* PBXContainerItemProxy */;
+			target = 90BCC3462A7D2CA4002BA1F9 /* Slingshot */;
+			targetProxy = 90BCC3582A7D2CA5002BA1F9 /* PBXContainerItemProxy */;
 		};
-		90BCC3232A7D1564002BA1F9 /* PBXTargetDependency */ = {
+		90BCC3632A7D2CA5002BA1F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 90BCC3062A7D1562002BA1F9 /* Slingshot */;
-			targetProxy = 90BCC3222A7D1564002BA1F9 /* PBXContainerItemProxy */;
+			target = 90BCC3462A7D2CA4002BA1F9 /* Slingshot */;
+			targetProxy = 90BCC3622A7D2CA5002BA1F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		90BCC3292A7D1564002BA1F9 /* Debug */ = {
+		90BCC3692A7D2CA5002BA1F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		90BCC32A2A7D1564002BA1F9 /* Release */ = {
+		90BCC36A2A7D2CA5002BA1F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -433,7 +409,7 @@
 			};
 			name = Release;
 		};
-		90BCC32C2A7D1564002BA1F9 /* Debug */ = {
+		90BCC36C2A7D2CA5002BA1F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -461,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		90BCC32D2A7D1564002BA1F9 /* Release */ = {
+		90BCC36D2A7D2CA5002BA1F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -489,7 +465,7 @@
 			};
 			name = Release;
 		};
-		90BCC32F2A7D1564002BA1F9 /* Debug */ = {
+		90BCC36F2A7D2CA5002BA1F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -508,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		90BCC3302A7D1564002BA1F9 /* Release */ = {
+		90BCC3702A7D2CA5002BA1F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -527,7 +503,7 @@
 			};
 			name = Release;
 		};
-		90BCC3322A7D1564002BA1F9 /* Debug */ = {
+		90BCC3722A7D2CA5002BA1F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -544,7 +520,7 @@
 			};
 			name = Debug;
 		};
-		90BCC3332A7D1564002BA1F9 /* Release */ = {
+		90BCC3732A7D2CA5002BA1F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -564,43 +540,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90BCC3022A7D1562002BA1F9 /* Build configuration list for PBXProject "Slingshot" */ = {
+		90BCC3422A7D2CA4002BA1F9 /* Build configuration list for PBXProject "Slingshot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90BCC3292A7D1564002BA1F9 /* Debug */,
-				90BCC32A2A7D1564002BA1F9 /* Release */,
+				90BCC3692A7D2CA5002BA1F9 /* Debug */,
+				90BCC36A2A7D2CA5002BA1F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90BCC32B2A7D1564002BA1F9 /* Build configuration list for PBXNativeTarget "Slingshot" */ = {
+		90BCC36B2A7D2CA5002BA1F9 /* Build configuration list for PBXNativeTarget "Slingshot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90BCC32C2A7D1564002BA1F9 /* Debug */,
-				90BCC32D2A7D1564002BA1F9 /* Release */,
+				90BCC36C2A7D2CA5002BA1F9 /* Debug */,
+				90BCC36D2A7D2CA5002BA1F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90BCC32E2A7D1564002BA1F9 /* Build configuration list for PBXNativeTarget "SlingshotTests" */ = {
+		90BCC36E2A7D2CA5002BA1F9 /* Build configuration list for PBXNativeTarget "SlingshotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90BCC32F2A7D1564002BA1F9 /* Debug */,
-				90BCC3302A7D1564002BA1F9 /* Release */,
+				90BCC36F2A7D2CA5002BA1F9 /* Debug */,
+				90BCC3702A7D2CA5002BA1F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90BCC3312A7D1564002BA1F9 /* Build configuration list for PBXNativeTarget "SlingshotUITests" */ = {
+		90BCC3712A7D2CA5002BA1F9 /* Build configuration list for PBXNativeTarget "SlingshotUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90BCC3322A7D1564002BA1F9 /* Debug */,
-				90BCC3332A7D1564002BA1F9 /* Release */,
+				90BCC3722A7D2CA5002BA1F9 /* Debug */,
+				90BCC3732A7D2CA5002BA1F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 90BCC2FF2A7D1562002BA1F9 /* Project object */;
+	rootObject = 90BCC33F2A7D2CA4002BA1F9 /* Project object */;
 }

@@ -30,7 +30,7 @@ final class SlingshotUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
-    func failingTestExample() throws {
+    func testExample2() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
